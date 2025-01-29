@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    background: var(--background-color); /* Darker Gray */
+    backdrop-filter: blur(10px);
+    /* border: var(--accent-color) solid 1px; */
+    border-radius: 1.5rem;
+    position: relative;
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 1.8rem;
+}
+
+#markdown-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.editor, .preview {
+    position: relative;
+    width: 100%;
+    border: var(--accent-color) solid 1px;
+    padding: 10px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    backdrop-filter: blur(10px);
+}
+
+.editor {
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    height: 400px;
+    overflow-y: auto;
+}
+
+.preview {
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    height: 400px;
+    overflow-y: auto;
+}
+
+.editor:focus, .preview:focus {
+    outline: 1px dotted var(--accent-color);
+}
+
+@media only screen and (max-width: 600px) {
+    #markdown-form {
+        flex-direction: row;
+    }
+
+    .editor {
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 1.5rem;
+        border-top-left-radius: 1.5rem;
+        border-top-right-radius: 0;
+    }
+
+    .preview {
+        border-top-right-radius: 1.5rem;
+        border-bottom-right-radius: 1.5rem;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+}

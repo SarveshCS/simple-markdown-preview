@@ -1,0 +1,58 @@
+.navbar {
+    background-color: var(--navbar-background-color);
+    font-size: 1.8rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--navbar-text-color);
+    text-transform: lowercase;
+    backdrop-filter: blur(10px);
+    border: var(--accent-color) solid 1px;
+    border-radius: 1.2rem;
+    position: relative;
+    z-index: 10;
+    width: 100%;
+}
+
+.navbar-elements {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-element {
+    display: inline-block;
+    padding: 5px 15px;
+    justify-content: space-between;
+}
+
+.navbar-right {
+    margin-left: auto;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar a:hover {
+    color: var(--accent-color);
+}
+
+.navbar .theme-btn a:hover {
+    color: inherit;
+}
+
+.navbar-elements .theme-btn {
+    border: var(--accent-color) solid 1px;
+    border-radius: .8rem;
+    background-color: var(--navbar-background-color);
+    color: var(--accent-color);
+    padding: 5px 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar-elements .theme-btn:hover {
+    background-color: var(--accent-color);
+    color: var(--background-color);
+}

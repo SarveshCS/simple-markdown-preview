@@ -1,0 +1,13 @@
+:root {
+    --background-color: #1e1e1e; /* Darker Gray */
+    --text-color: #d4d4d4; /* Softer Light Gray */
+    --accent-color: #569cd6; /* Soft Blue */
+    --navbar-background-color: #252526; /* Dark Gray */
+    --navbar-text-color: #d4d4d4; /* Softer Light Gray */
+
+    --lavender-pink: #d4a5a5;
+    --pale-purple: #cbb4d4;
+    --misty-rose: #d4c4c4;
+    --pearl: #d4d4c4;
+    --olivine: #a5d4a5;
+}
