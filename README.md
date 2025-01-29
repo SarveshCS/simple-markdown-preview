@@ -1,5 +1,3 @@
-# markdown-preview-app/markdown-preview-app/README.md
-
 # Markdown Preview Application
 
 This is a simple Markdown preview application built with Flask. It allows users to write Markdown text and see a live preview of the rendered HTML. The application supports both light and dark themes.
