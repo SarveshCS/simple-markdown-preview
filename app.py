@@ -26,4 +26,4 @@ def switch_theme(theme):
     return resp
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
