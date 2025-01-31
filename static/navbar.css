@@ -13,6 +13,8 @@
     height: fit-content;
     padding: 8px;
     margin: 8px 0;
+    color: var(--accent-color);
+
 }
 
 .navbar-elements {
@@ -27,6 +29,14 @@
     padding: 5px 15px;
     justify-content: space-between;
 }
+.navbar-left a, .navbar-left a:visited{
+    color: var(--accent-color);
+    transition: all .2s;
+}
+
+.navbar-left a:hover, .navbar-left a:visited:hover{
+    color: #94bad3;
+}
 
 .navbar-right {
     margin-left: auto;
@@ -34,7 +44,6 @@
 
 .navbar a {
     text-decoration: none;
-    color: inherit;
 }
 
 .navbar a:hover {
