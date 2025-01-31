@@ -2,6 +2,7 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 html {
     font-size: 62.5%;
@@ -11,8 +12,5 @@ body {
     color: var(--text-color);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     backdrop-filter: blur(10px);
-}
-
-.body-content {
-    padding: 5px;
+    padding: 0 8px;
 }
